@@ -9,7 +9,7 @@ class SoundButton extends StatelessWidget {
 
   void playSound(int number) {
     final player = AudioPlayer();
-    player.play(AssetSource('note$number.mp3'));
+    player.play(AssetSource('note$number.wav'));
   }
 
   @override
